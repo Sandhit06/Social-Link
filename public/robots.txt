@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://social--link.vercel.app/sitemap.xml
