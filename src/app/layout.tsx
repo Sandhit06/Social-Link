@@ -21,7 +21,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   "metadataBase": new URL("https://social--link.vercel.app/"),
   "title": "SocialLink | Social App by Sandhit Karmakar",
-  "description": "Explore SocialLink, a Next.js social media project by Sandhit Karmakar for sharing posts and connecting with people.",
+  "description": "Sandhit Karmakar is a full-stack developer building web and mobile applications. Explore SocialLink, his Next.js social media project for sharing posts and connecting with people.",
   "authors": [
     {
       "name": "Sandhit Karmakar",
@@ -32,12 +32,12 @@ export const metadata: Metadata = {
   "openGraph": {
     "type": "website",
     "title": "SocialLink | Social App by Sandhit Karmakar",
-    "description": "Explore SocialLink, a Next.js social media project by Sandhit Karmakar for sharing posts and connecting with people."
+    "description": "Sandhit Karmakar is a full-stack developer building web and mobile applications. Explore SocialLink, his Next.js social media project for sharing posts and connecting with people."
   },
   "twitter": {
     "card": "summary",
     "title": "SocialLink | Social App by Sandhit Karmakar",
-    "description": "Explore SocialLink, a Next.js social media project by Sandhit Karmakar for sharing posts and connecting with people."
+    "description": "Sandhit Karmakar is a full-stack developer building web and mobile applications. Explore SocialLink, his Next.js social media project for sharing posts and connecting with people."
   }
 };
 
