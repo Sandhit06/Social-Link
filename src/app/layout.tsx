@@ -19,8 +19,26 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "SocialLink",
-  description: "A modern social media application powered by Next.js",
+  "metadataBase": new URL("https://social--link.vercel.app/"),
+  "title": "SocialLink | Social App by Sandhit Karmakar",
+  "description": "Explore SocialLink, a Next.js social media project by Sandhit Karmakar for sharing posts and connecting with people.",
+  "authors": [
+    {
+      "name": "Sandhit Karmakar",
+      "url": "https://github.com/Sandhit06"
+    }
+  ],
+  "creator": "Sandhit Karmakar",
+  "openGraph": {
+    "type": "website",
+    "title": "SocialLink | Social App by Sandhit Karmakar",
+    "description": "Explore SocialLink, a Next.js social media project by Sandhit Karmakar for sharing posts and connecting with people."
+  },
+  "twitter": {
+    "card": "summary",
+    "title": "SocialLink | Social App by Sandhit Karmakar",
+    "description": "Explore SocialLink, a Next.js social media project by Sandhit Karmakar for sharing posts and connecting with people."
+  }
 };
 
 export default function RootLayout({
